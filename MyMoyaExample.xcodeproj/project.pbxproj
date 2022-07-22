@@ -26,6 +26,12 @@
 		1BB44E52288806C20096FA4A /* TvShows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB44E51288806C20096FA4A /* TvShows.swift */; };
 		1BB44E54288806D20096FA4A /* Seasons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB44E53288806D20096FA4A /* Seasons.swift */; };
 		1BB44E57288811400096FA4A /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 1BB44E56288811400096FA4A /* SwiftyJSON */; };
+		1BB44E5D288A731F0096FA4A /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB44E5C288A731F0096FA4A /* Variable.swift */; };
+		1BB44E5F288A8FBB0096FA4A /* MVPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB44E5E288A8FBB0096FA4A /* MVPModel.swift */; };
+		1BB44E61288A8FD90096FA4A /* MVPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB44E60288A8FD90096FA4A /* MVPService.swift */; };
+		1BB44E63288A90340096FA4A /* MVPDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB44E62288A90340096FA4A /* MVPDelegate.swift */; };
+		1BB44E65288A90620096FA4A /* MVPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB44E64288A90620096FA4A /* MVPPresenter.swift */; };
+		1BB44E67288A90A10096FA4A /* MVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB44E66288A90A10096FA4A /* MVPViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +54,12 @@
 		1BB44E4F288805D30096FA4A /* URLSeesionDelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSeesionDelegateViewController.swift; sourceTree = "<group>"; };
 		1BB44E51288806C20096FA4A /* TvShows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShows.swift; sourceTree = "<group>"; };
 		1BB44E53288806D20096FA4A /* Seasons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seasons.swift; sourceTree = "<group>"; };
+		1BB44E5C288A731F0096FA4A /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		1BB44E5E288A8FBB0096FA4A /* MVPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPModel.swift; sourceTree = "<group>"; };
+		1BB44E60288A8FD90096FA4A /* MVPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPService.swift; sourceTree = "<group>"; };
+		1BB44E62288A90340096FA4A /* MVPDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPDelegate.swift; sourceTree = "<group>"; };
+		1BB44E64288A90620096FA4A /* MVPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPPresenter.swift; sourceTree = "<group>"; };
+		1BB44E66288A90A10096FA4A /* MVPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,11 +102,18 @@
 				1BB44E43288803280096FA4A /* URL+Extension.swift */,
 				1BB44E452888035F0096FA4A /* APIEnum.swift */,
 				1BB44E47288804C30096FA4A /* URLSession+Extension.swift */,
+				1BB44E5C288A731F0096FA4A /* Variable.swift */,
 				1BB44E2D2887F85F0096FA4A /* Main.storyboard */,
 				1BB44E49288805B80096FA4A /* MoyaViewController.swift */,
 				1BB44E4B288805C10096FA4A /* AlamofireViewController.swift */,
 				1BB44E51288806C20096FA4A /* TvShows.swift */,
 				1BB44E53288806D20096FA4A /* Seasons.swift */,
+				1BB44E5E288A8FBB0096FA4A /* MVPModel.swift */,
+				1BB44E68288A960F0096FA4A /* MVP */,
+				1BB44E60288A8FD90096FA4A /* MVPService.swift */,
+				1BB44E62288A90340096FA4A /* MVPDelegate.swift */,
+				1BB44E64288A90620096FA4A /* MVPPresenter.swift */,
+				1BB44E66288A90A10096FA4A /* MVPViewController.swift */,
 				1BB44E4D288805C80096FA4A /* URLSessionViewController.swift */,
 				1BB44E4F288805D30096FA4A /* URLSeesionDelegateViewController.swift */,
 				1BB44E302887F8600096FA4A /* Assets.xcassets */,
@@ -102,6 +121,13 @@
 				1BB44E352887F8600096FA4A /* Info.plist */,
 			);
 			path = MyMoyaExample;
+			sourceTree = "<group>";
+		};
+		1BB44E68288A960F0096FA4A /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +213,10 @@
 				1BB44E42288803100096FA4A /* APIService.swift in Sources */,
 				1BB44E282887F85F0096FA4A /* AppDelegate.swift in Sources */,
 				1BB44E52288806C20096FA4A /* TvShows.swift in Sources */,
+				1BB44E65288A90620096FA4A /* MVPPresenter.swift in Sources */,
+				1BB44E63288A90340096FA4A /* MVPDelegate.swift in Sources */,
+				1BB44E5D288A731F0096FA4A /* Variable.swift in Sources */,
+				1BB44E61288A8FD90096FA4A /* MVPService.swift in Sources */,
 				1BB44E2A2887F85F0096FA4A /* SceneDelegate.swift in Sources */,
 				1BB44E4A288805B90096FA4A /* MoyaViewController.swift in Sources */,
 				1BB44E54288806D20096FA4A /* Seasons.swift in Sources */,
@@ -195,6 +225,8 @@
 				1BB44E462888035F0096FA4A /* APIEnum.swift in Sources */,
 				1BB44E50288805D30096FA4A /* URLSeesionDelegateViewController.swift in Sources */,
 				1BB44E3F2887F8A90096FA4A /* MoyaService.swift in Sources */,
+				1BB44E67288A90A10096FA4A /* MVPViewController.swift in Sources */,
+				1BB44E5F288A8FBB0096FA4A /* MVPModel.swift in Sources */,
 				1BB44E44288803280096FA4A /* URL+Extension.swift in Sources */,
 				1BB44E4E288805C80096FA4A /* URLSessionViewController.swift in Sources */,
 			);

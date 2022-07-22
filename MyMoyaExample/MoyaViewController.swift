@@ -14,6 +14,9 @@ class MoyaViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        test = "abcd"
+        print(test)
 
     }
     
